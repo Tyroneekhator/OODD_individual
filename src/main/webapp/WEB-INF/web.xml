@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" version="4.0">
+  <servlet>
+    <description></description>
+    <display-name>editProduct</display-name>
+    <servlet-name>editProduct</servlet-name>
+    <servlet-class>shopping_assessment.editProduct</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>editProduct</servlet-name>
+    <url-pattern>/editProduct</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>addToCart</display-name>
+    <servlet-name>addToCart</servlet-name>
+    <servlet-class>shopping_assessment.addToCart</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>addToCart</servlet-name>
+    <url-pattern>/addToCart</url-pattern>
+  </servlet-mapping>
+</web-app>
